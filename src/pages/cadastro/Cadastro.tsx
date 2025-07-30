@@ -64,8 +64,8 @@ function Cadastro() {
 
   return (
     <>
-      <div className=" lg:grid-cols-2 h-screen 
-            place-items-center font-bold">
+      <div className=" lg:grid-cols-2 min-h-screen 
+            place-items-center font-bold my-4">
         {/* <div className="fundoCadastro hidden lg:block"></div> */}
         <form className='flex justify-center items-center flex-col w-2/3 gap-3'
           onSubmit={cadastrarNovoUsuario}>

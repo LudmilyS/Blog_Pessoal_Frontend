@@ -34,8 +34,8 @@ text-lg - define tamanho da fonta e da linha*/}
 
           <div className= 'flex gap-4'> {/*gap-4 - define o espaço entre os elementos */}
             Postagens
-            Temas
-            Cadastrar tema
+            <Link to='/temas' className="hover:underline">Temas</Link>
+            <Link to='/cadastrartema' className='hover:underline'>Cadastrar tema</Link>
             Perfil
             <Link to= '' onClick={logout} className="hover:underline">Sair</Link>
           </div>
